@@ -2,7 +2,7 @@
 
 `akka-http-core` 模块提供了底层服务端 API，通过接收 `HttpRequest` 并产生 `HttpResponse` 来管理连接。可以通过函数，或者 `Flow[HttpRequest, HttpResponse, _]` 来处理请求/响应。
 
-```
+```scala
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.HttpMethods._

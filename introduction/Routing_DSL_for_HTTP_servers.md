@@ -10,7 +10,7 @@
 
 使用路由 DSL 创建 `Route`，然后将其 *绑定* 到一个端口，就可以开始接收 HTTP 请求了：
 
-```
+```scala
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model._
@@ -46,7 +46,7 @@ object WebServer {
 
 一个常见场景为使用领域模型对象响应请求，此时存在将该对象转化为 JSON 的 `marshaller`。下面的例子由两个路由组成，第一个查询异步数据库，并将查询结果 `Future[Option[Item]]` 序列化（marshall）为 JSON 响应；第二个从进入的请求中反序列化（unmarshall）获取 `Order`，并将其存入数据库，成功后以 OK 作为响应：
 
-```
+```scala
 import akka.actor.ActorSystem
 import akka.http.scaladsl.Http
 import akka.stream.ActorMaterializer
@@ -123,7 +123,7 @@ Akka HTTP 另一强大之处在于其以流式数据为核心，即请求体、�
 
 下面例子在客户端能够接受的范围内，服务端发送随机数流：
 
-```
+```scala
 import akka.actor.ActorSystem
 import akka.stream.scaladsl._
 import akka.util.ByteString
@@ -175,7 +175,7 @@ object WebServer {
 
 Akka HTTP 路由与 actors 交互非常便利，下面例子中一个路由以 `fire-and-forget` 模式发出投标，另一个路由则包含一次与 actor 的请求、响应交互。actor 返回的响应被序列化为 JSON 返回到客户端。
 
-```
+```scala
 import akka.actor.{Actor, ActorSystem, Props, ActorLogging}
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.model.StatusCodes

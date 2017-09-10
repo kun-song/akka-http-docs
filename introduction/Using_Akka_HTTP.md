@@ -2,7 +2,7 @@
 
 使用 `Akka HTTP` 需要包含以下依赖：
 
-```
+```scala
 // For Akka 2.4.x or 2.5.x
 "com.typesafe.akka" %% "akka-http" % "10.0.10"
 // Only when running against Akka 2.5 explicitly depend on akka-streams in same version as akka-actor
