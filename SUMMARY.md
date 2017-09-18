@@ -21,4 +21,11 @@
 * [请求、响应实体的流式本质](streaming_nature/introduction.md)
     * [客户端如何处理流式 HTTP 实体](streaming_nature/client_side.md)
     * [服务端如何处理流式 HTTP 实体](streaming_nature/server_side.md)
-
+* [消费 HTTP 服务（客户端）](client_side/Introduction.md)
+    * [请求层客户端 API](client_side/Request-Level_Client-Side_API.md)
+    * [主机层客户端 API](client_side/Host-Level_Client-Side_API.md)
+    * [连接层客户端 API](client_side/Connection-Level_Client-Side_API.md)
+    * [连接池溢出与 max-open-requests 设置](client_side/Pool_overflow_and_the_max-open-requests_setting.md)
+    * [客户端 HTTPS 支持](client_side/Client-Side_HTTPS_Support.md)
+    * [可插拔的客户端 Transports/HTTP(S) 代理支持](client_side/Pluggable_Client_Transports_HTTPS_proxy_Support.md)
+    * [客户端 WebSocket 支持](client_side/Client-Side_WebSocket_Support.md)
