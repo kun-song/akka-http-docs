@@ -18,3 +18,7 @@
     * [JSON 支持](common_abstractions/JSON_Support.md)
     * [XML 支持](common_abstractions/XML_Support.md)
     * [Akka HTTP 超时](common_abstractions/Akka_HTTP_Timeout.md)
+* [请求、响应实体的流式本质](streaming_nature/introduction.md)
+    * [客户端如何处理流式 HTTP 实体](streaming_nature/client_side.md)
+    * [服务端如何处理流式 HTTP 实体](streaming_nature/server_side.md)
+
