@@ -37,3 +37,4 @@
     * [客户端 HTTPS 支持](client_side/Client-Side_HTTPS_Support.md)
     * [可插拔的客户端 Transports/HTTP(S) 代理支持](client_side/Pluggable_Client_Transports_HTTPS_proxy_Support.md)
     * [客户端 WebSocket 支持](client_side/Client-Side_WebSocket_Support.md)
+* [兼容性指导](compatibility/Compatibility_Guidelines.md)
