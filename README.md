@@ -14,7 +14,7 @@
 - [ ] 高层服务端 API
 - [ ] 服务端 WebSocket 支持
 - [ ] 服务端 HTTPS 支持（预览版）
-- [ ] 服务端事件发送支持
+- [x] Server-Sent Events 支持
 - [x] 消费 HTTP 服务（客户端）
 - [ ] 在 Akka HTTP 中处理阻塞操作
 - [ ] 迁移指导
