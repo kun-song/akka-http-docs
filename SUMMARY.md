@@ -41,6 +41,13 @@
         * [路由组合](high_server/routes/Composing_Routes.md)
         * [路由树](high_server/routes/The_Routing_Tree.md)
         * [Sealing a Route](high_server/routes/Sealing_a_Route.md)
+    * [指令](high_server/directives/Introduction.md)
+        * [基础](high_server/directives/Basics.md)
+        * [指令结构](high_server/directives/Structure.md)
+        * [指令是做什么的？](high_server/directives/What_Directives_do.md)
+        * [组合指令](high_server/directives/Composing_Directives.md)
+        * [指令的类型安全性](high_server/directives/Type_Safety_of_Directives.md)
+        * [自动元组提取](high_server/directives/Automatic_Tuple_Extraction.md)
 * [Server-Sent Events 支持](sse/Introduction.md)
     * [模型](sse/Model.md)
     * [服务端用法：序列化](sse/Server-side_usage_marshalling.md)
@@ -54,4 +61,3 @@
     * [可插拔的客户端 Transports/HTTP(S) 代理支持](client_side/Pluggable_Client_Transports_HTTPS_proxy_Support.md)
     * [客户端 WebSocket 支持](client_side/Client-Side_WebSocket_Support.md)
 * [兼容性指导](compatibility/Compatibility_Guidelines.md)
-
