@@ -49,6 +49,7 @@
         * [指令的类型安全性](high_server/directives/Type_Safety_of_Directives.md)
         * [自动元组提取](high_server/directives/Automatic_Tuple_Extraction.md)
         * [预定义指令（以特质分类）](high_server/directives/Predefined_Directives_by_trait.md)
+            * [FileUploadDirectives](high_server/directives/predefined/FileUploadDirectives.md)
 * [Server-Sent Events 支持](sse/Introduction.md)
     * [模型](sse/Model.md)
     * [服务端用法：序列化](sse/Server-side_usage_marshalling.md)
